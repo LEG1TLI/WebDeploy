@@ -1,0 +1,1 @@
+document.querySelector('footer small').innerHTML = "© " + new Date().getFullYear() + " Yardman Moto. Built with ♥ for riders.";

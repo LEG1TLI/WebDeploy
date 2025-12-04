@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yardman Moto</title>
+  <meta name="description" content="Yardman Moto — apparel, community, and the future social garage.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="js/featured.js"></script>
+  <script defer src="js/news.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <img src="/Assets/logo.svg" alt="Yardman Moto logo" class="logo">
+        <span class="brand-title">Yardman Moto</span>
+      </div>
+      <nav>
+        <a href="#shop">Shop</a>
+        <a href="#garage">Social Garage</a>
+        <a href="#news">News</a>
+        <a href="#featured">Featured Bike</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Grease, Grit & Good Vibes.</h1>
+      <p>A community garage for riders, apparel for everyone. Built in NYC — made for the world.</p>
+    </div>
+  </section>
+
+  <section id="shop" class="section">
+    <div class="container">
+      <h2>Shop — Etsy</h2>
+      <p class="muted">Welcome to the Etsy shop! here you can browse an array of unique motorcycle apparel and
+        accessories.
+      </p>
+      <div class="card">
+        <div class='sk-ww-etsy-shop' data-embed-id='25620935'></div>
+        <script src='https://widgets.sociablekit.com/etsy-shop/widget.js' defer></script>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="garage" class="section alt">
+    <div class="container">
+      <h2>Yardman Moto Social Garage</h2>
+      <div class="grid two">
+        <div>
+          <p>Yardman Moto was born from a single photograph. My grandfather, Albert "Bertie" Petgrave on a motorcycle in
+            1960s England- leather jacket, windscreen, and a look that said he knew his machine and respected his craft.
+            Before migrating to England in 1959, he was a barber in Jamaica, mastering his trade with precision and pride.
+            After that, he would proceed to spend over two decades working at the C&B factory with the same founding principles
+            that uphold Yardman Moto today: Learn the tools, show up ready, and get the job done right.
+
+            The motorcycle in the photo cannot be fully identified today, but the spirit is unmistakeable. Today, that legacy
+            continues in a modern way, through a community garage where riders can gather, learn, and work on their bikes together.
+
+            Yardman Moto exists for people who appreciate real craft. It's more than just a garage, it's a nod to the past and a 
+            blueprint for the future. This includes:
+          </p>
+          <ul class="checklist">
+            <li>Membership tiers with tool rental & shop discounts</li>
+            <li>Secure motorcycle storage options</li>
+            <li>Classes: maintenance, safety, customization</li>
+            <li>Events: tech nights, ride-outs, swaps</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="/Assets/granddadbike.jpg" alt="Granddad's vintage motorcycle" class="clickable-image">
+        </div>
+      </div>
+      <div class="grid two">
+        <div class="card">
+          <h3>Roadmap</h3>
+          <ol class="roadmap">
+            <li><span>Phase 1:</span> Build community & merch (live now)</li>
+            <li><span>Phase 2:</span> Pop-up wrench nights + classes</li>
+            <li><span>Phase 3:</span> Secure space & founding members</li>
+            <li><span>Phase 4:</span> Open the social garage</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="section">
+    <div class="container">
+      <h2>Motorcycle News</h2>
+      <p class="muted">Latest trending headlines from Bike EXIF. Updates weekly at 12 PM EST.</p>
+      <div id="news-feed" class="news-grid"></div>
+    </div>
+  </section>
+
+  <!--featured bike, this section needs to be updated monthly-->
+  <section id="featured" class="section alt">
+    <div class="container">
+      <h2>Featured Bike of the Month</h2>
+      <div class="grid two">
+        <div id="featured-bike" class="featured">
+          <img src="/Assets/featured.jpg" alt="Featured Bike" class="clickable-image" height="400px" width="492px">
+        </div>
+        <div id="featured-info" class="featured-info">
+          <h3 id="featured-title"></h3>
+          <p id="featured-month"></p>
+          <div id="featured-specs" class="featured-specs"></div>
+          <p id="featured-blurb"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <a href="mailto:yardmanmoto1@gmail.com">
+        <img src="/Assets/email.svg" alt="email" style="width:40px; height:40px;"></a>
+      
+        <a href="https://www.instagram.com/yardmanmoto/" target="_blank">
+          <img src="/Assets/instagramicon.svg" alt="Instagram" style="width:40px; height:40px">
+        </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 Yardman Moto. Built with ♥ for riders.</small>
+    </div>
+  </footer>
+  <div id="image-modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-image" src="" alt="">
+  </div>
+
+  <script defer src="js/function1.js"></script>
+  <script defer src="js/function2.js"></script>
+</body>
+
+</html>
