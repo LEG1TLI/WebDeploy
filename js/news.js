@@ -13,24 +13,24 @@ function displayArticles() {
 
 const newsArticles = [
   {
-    title: "Type 26: Auto Fabrica's Elegant Honda CB750 Café Racer",
-    url: "https://www.bikeexif.com/honda-cb750-cafe-racer-auto-fabricar"
+    title: "Mooneyes Calling: Marc Holstein Reports from the 2025 Yokohama Hot Rod Custom Show",
+    url: "https://www.bikeexif.com/2025-mooneyes-show-report"
   },
   {
-    title: "From My Garage to Yours: Gifts With True Motorcycling Soul",
-    url: "https://www.bikeexif.com/gifts-for-every-motorcyclist"
+    title: "46Works Turns the Fantic Caballero Scrambler 700 into a Sporty Café Racer",
+    url: "https://www.bikeexif.com/fantic-caballero-46works"
   },
   {
-    title: "Back in the Game: A Grigio Silverstone Moto Guzzi V35 from New Zealand",
-    url: "https://www.bikeexif.com/custom-moto-guzzi-v35"
+    title: "Cross-Country Contenders: 5 Custom BMWs We’d Ride Coast to Coast",
+    url: "https://www.bikeexif.com/5-custom-bmws-wed-ride-across-the-country"
   },
   {
-    title: "Shovelhead Salvation: 7 Custom Harley-Davidson Shovelheads",
-    url: "https://www.bikeexif.com/shovelhead-salvation-7-custom-harley-davidson-shovelheads"
+    title: "Performance Meets Panache: 7 Customs from Roland Sands Design",
+    url: "https://www.bikeexif.com/performance-meets-panache-7-customs-from-roland-sands-design"
   },
   {
-    title: "2LOUD Releases an Eclectic Sportster Chopper Fit for a Pop Star",
-    url: "https://www.bikeexif.com/2loud-sportster-chopper"
+    title: "Carolina Reaper: A Red-Hot Royal Enfield Guerilla 450 Flat Tracker",
+    url: "https://www.bikeexif.com/royal-enfield-guerilla-450-flat-tracker"
   }
 ];
 
